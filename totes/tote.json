@@ -1,0 +1,11 @@
+{
+  "task_id":"18539",
+  "putlist_details":{"storage_area":"store",
+    "floor_no":"1",
+    "storage_zone":"inward_bulk",
+    "tote_ageging":1458302646,
+    "assigned_to":"nitish.thakur",
+    "putitem_details":[{"wid":"A10262","wsn":null,"quantity_put":0,"quantity_remaining":8}],
+    "is_fragile":false,"is_dangerous":false,"total_qty":8},
+  "picklist_details":null
+}

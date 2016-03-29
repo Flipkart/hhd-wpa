@@ -1,0 +1,22 @@
+<div ng-controller="View1Ctrl">
+
+    <div class="well well-sm">View Tote</div>
+
+    <uib-alert type="info">{{alertMsg}}</uib-alert>
+
+    <input type="text" data-ng-model="toteLabel" placeholder="Tote Label" />
+    <br><br>
+
+    <button class="btn btn-default" ng-click="toteDetails()">Fetch Details</button>
+    <br><br><br>
+
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">Tote Details</h3>
+        </div>
+        <div class="panel-body">
+            {{toteResponse}}
+        </div>
+    </div>
+
+</div>
